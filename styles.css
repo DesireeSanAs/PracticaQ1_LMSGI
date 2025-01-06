@@ -4,12 +4,6 @@ body {
     color: #fff;
   }
   
-  .bungee-inline {
-  font-family: 'Bungee Inline', serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
   .hero {
     height: 100vh;
     background: url('tu-imagen.jpg') no-repeat center center/cover;
