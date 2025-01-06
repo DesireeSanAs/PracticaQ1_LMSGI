@@ -3,7 +3,7 @@ body {
     background-color: #1a1a1a;
     color: #fff;
   }
-  
+
   .hero {
     height: 100vh;
     background: url('tu-imagen.jpg') no-repeat center center/cover;
@@ -111,4 +111,22 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #c82333;
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-hover {
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para la imagen */
+.image-hover img {
+  transition: transform 0.3s ease; /* Transición suave */
+  width: 100%; /* Asegura que la imagen ocupe todo el espacio */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Efecto de ampliación al pasar el ratón */
+.image-hover img:hover {
+  transform: scale(1.1); /* Amplía la imagen al 110% */
 }
